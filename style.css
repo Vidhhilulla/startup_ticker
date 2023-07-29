@@ -62,12 +62,14 @@ nav h2{
 
 /* nav bar ends */
 
+/* about us starts */
+
 .hero
 {
     background-image: url(https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
     background-position: center center;
     color: #fff;
 }
@@ -78,6 +80,12 @@ nav h2{
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+.hero #highlight
+{   
+    padding: 10px;
+    font-weight:bold;
+    font-size: 50px;
 }
 
 .hero .content *{
@@ -94,7 +102,7 @@ nav h2{
     justify-content: center;
 }
 
-.container::before{
+.about_us .container::before{
     content: '';
     position:absolute;
     top: 0;
@@ -121,18 +129,96 @@ nav h2{
     font-weight: bold;
 }
 
+.about_us .content #padding
+{
+    padding-bottom: 25px;
+}
+
+
 .about_us .content *
 {
     z-index: 999;
     text-align:center;
+    padding-bottom: 10px;
 
 }
 
 .about_us .content p{
-    font-weight: bold;
-    padding-bottom: 10px;
+    font-weight: bold;  
+}
+
+/* about us ends */
+
+
+/* success stories starts */
+
+
+.success_stories *
+{
+    color: #fff;
+}
+
+.success_stories .container{
+    background-image: url(https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.success_stories .container::before
+{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.success_stories .container .content *
+{
+    z-index: 999;  
+    /* position: relative; */
+}
+
+
+
+
+.success_stories .container .column
+{
+    height: 300px;
+    width: 300px;
+    background-color:#fff;
     
 }
+
+.success_stories .content .heading
+{
+    align-items: center;
+    justify-content: center;
+}
+.success_stories .content .heading *
+{
+    padding: 10px;
+}
+
+
+.success_stories .content .stories{
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+    
+}
+.success_stories .column{
+    margin: 15px;
+}
+
+
+
+/* success stories ends */
+
 
 
 

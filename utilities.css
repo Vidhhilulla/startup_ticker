@@ -12,3 +12,17 @@
 {
     margin: 15px;
 }
+
+.btn
+{
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px;
+    width: 120px;
+}
+
+.btn-normal
+{
+    background-color: #FF3D68;
+    color: #fff;
+}
