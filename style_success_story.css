@@ -7,21 +7,70 @@
 body
 {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #fff;
+    /* background-color: #fff; */
     line-height: 1.6rem;
+    background-color: #fff;
+    /* background-image: url(https://images.unsplash.com/photo-1589561253898-768105ca91a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* body::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.5;
+    position: absolute;
+} */
+
+
+.header1
+{
+    background-image: url(https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 80px;
+
+}
+
+.header1 h1{
+    color:white;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-top: 25px; */
+    font-family : 'Handjet', cursive !important;
+    
+}
+
+.heading
+{
+    /* background-color:rgba(0,0,0,0.5); */
+    /* height: 80px; */
+    text-align: center;
+
+    
 }
 
 .container .image
 {
     width: 50%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
 }
 
 
 .container .image img{
     border-radius: 10%;
+    /* height: 650px; */
+    /* width: fit-content; */
+    width: 60%;
+    height: 60%;
 }
 
 
