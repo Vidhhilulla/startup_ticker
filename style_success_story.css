@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    line-height: 1.6rem;
+}
+
+.container .image
+{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+
+.container .image img{
+    border-radius: 10%;
+}
+
+
+.container .content
+{
+    width: 50%;
+}
+
+
+.container .content .content1
+{
+    width: 80%;
+    height: 40%;
+    background-color: blue;
+}
+
+
+.container .content .content2
+{
+    width: 80%;
+    height: 40%;
+    background-color: green;
+}
+
