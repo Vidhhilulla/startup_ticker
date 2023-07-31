@@ -27,7 +27,7 @@ body
 } */
 
 
-.header1
+.header
 {
     background-image: url(https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80);
     background-repeat: no-repeat;
@@ -37,13 +37,13 @@ body
 
 }
 
-.header1 h1{
+.header h1{
     color:white;
     text-align: center;
     /* justify-content: center;
     align-items: center; */
-    /* padding-top: 25px; */
-    font-family : 'Handjet', cursive !important;
+    padding-top: 25px;
+    /* font-family : 'Handjet', cursive !important; */
     
 }
 
@@ -56,42 +56,127 @@ body
     
 }
 
+.heading *
+{
+    margin: 5px;
+}
+
+.heading a{
+    color:#FF3D68;
+}
+
+.heading #underline
+{
+    text-decoration: underline;
+}
+
 .container .image
 {
     width: 50%;
     height: 100%;
     /* background-color: black; */
     text-align: center;
+    background-color: rgba(0,0,0,0.1);
 }
 
 
 .container .image img{
-    border-radius: 10%;
-    /* height: 650px; */
+    border-radius: 5%;
+    height: 650px;
     /* width: fit-content; */
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 100%;
 }
 
 
 .container .content
 {
     width: 50%;
+    /* height: 100%; */
+    /* justify-content: space-between; */
+    align-content: space-between;
+    /* text-align: center; */
 }
+
 
 
 .container .content .content1
 {
-    width: 80%;
-    height: 40%;
-    background-color: blue;
+    /* width: 100%; */
+    height: 50%;
+    /* background-color: #333; */
+    background-color: rgba(255,61,104);
+    border-radius: 5%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 8px;
 }
 
+.content .content1 .content2 *
+{
+    margin: 4px;
+}
+
+.content .content1 .content2 h2
+{
+    padding-bottom: 8px;
+}
 
 .container .content .content2
 {
-    width: 80%;
-    height: 40%;
-    background-color: green;
+    /* width: 100%; */
+    height: 50%;
+    /* background-color: #333; */
+    background-color: rgba(255,61,104);
+    border-radius: 5%;
+    color: #fff;
+    text-align: center;
+    margin: 8px;
+
+    justify-content: center;
+    align-items: center;
 }
+
+
+.section{
+    /* height: 250px; */
+    background-color: #FF3D68;
+    color: #fff;
+    margin: 8px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+
+}
+
+.section h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+
+.section p{
+    text-align: center;
+}
+
+
+.section1 .section2
+{ 
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+}
+
+
+.content h2{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
 
