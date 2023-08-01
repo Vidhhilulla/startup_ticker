@@ -213,7 +213,7 @@ nav h2{
     padding: 10px;
     color: #fff;
 }
-.success_stories .content .heading h2{
+.success_stories .content .heading h1{
     color:#FAAD80;
 }
 
@@ -237,9 +237,13 @@ color: #333;
 {
     /* height: 100px;
     width: 200px; */
-    background-color:blanchedalmond;
+    background-color:rgba(0,0,0,0.1);
     /* opacity: 0.5; */
     text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+    text-decoration: underline;
+
 }
 
 
@@ -264,6 +268,37 @@ color: #333;
 
 /* success stories ends */
 
+
+
+/* .ourteam .section2 #stripe
+{
+    height: 100px;
+    background-color:#FF6767;
+
+} */
+
+.ourteam .section1 *
+{
+    margin: 4px;
+}
+
+.ourteam .section2 .image
+{
+    height:400px;
+    width:400px;
+    background-size: cover;
+}
+
+
+
+
+
+.ourteam .section2{
+height: 100%;
+position: relative;
+background-color: antiquewhite;
+/* padding-top: 250px; */
+}
 
 
 
